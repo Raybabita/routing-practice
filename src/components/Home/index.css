@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.home {
+  width: 150px;
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.home-heading {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500px;
+  color: #6d396b;
+}
+
+@media (min-width: 576px) {
+  .home-heading {
+    font-size: 48px;
+  }
+}
+
+.about-paragraph {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500px;
+  color: #6d396b;
+}

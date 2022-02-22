@@ -1,0 +1,23 @@
+/* Write your CSS code here */
+.contact-img {
+  width: 150px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.contact-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #6d396b;
+}
+
+@media screen and (min-width: 576px) {
+  .contact-heading {
+    font-size: 48px;
+  }
+}
